@@ -41,3 +41,15 @@ accédr àl'API et le tester avec swagger
 
 URL : http://127.0.0.1:8000/
 Swagger : http://127.0.0.1:8000/docs#/default/hello_fastapi__get
+
+# Partie 3 :
+# Question 1 :
+creation du dictionnaire
+creation de ficiher data.py pour stocker les données
+
+# Question 2 :
+from data import users
+GET /users -> return users
+
+test avec Swagger
+http://127.0.0.1:8000/docs#/default/get_all_users_users_get
