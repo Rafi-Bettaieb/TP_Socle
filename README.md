@@ -22,7 +22,7 @@ Pydantic : C'est le validateur qui vérifie que les données reçues sont correc
 ## Question 4 :
 geler la configuration dans le fichier
 ```bash 
-pip freeze > requirements.txt
+pip freeze > requirements-dev.txt
 ```
 ---
 
@@ -35,3 +35,9 @@ lancer l'application
 ```bash
 uvicorn main:app
 ```
+
+## Question 3 :
+accédr àl'API et le tester avec swagger
+
+URL : http://127.0.0.1:8000/
+Swagger : http://127.0.0.1:8000/docs#/default/hello_fastapi__get
