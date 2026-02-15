@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from data import users
+from data.data import users
 
 app = FastAPI()
 

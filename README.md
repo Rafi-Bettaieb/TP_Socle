@@ -89,7 +89,7 @@ FastAPI lit et transforme automatiquement en texte ("123"). Comme "123" est un t
 
 ---
 
-# Partie 5
+# Partie 5 :
 ## 5.1
 ### Question 1 :
 l'utilisateur ne doit pas choisir son propre numéro.
@@ -134,3 +134,25 @@ la longueur des utilisateurs chargés / id / login / age de l'utilisateur
 Mise à jour de l'arborescence
 
 ---
+
+# Partie 6 :
+## Etape 1 + 2
+Modification de la structure du projet
+
+## Etape 3 :
+création du fichier settings.py
+
+## Etape 4 :
+### Question 1 :
+```bash
+pip install python-dotenv
+```
+### Question 2 :
+```bash
+pip freeze > requirements-dev.txt
+```
+## Etape 5 :
+implementation de la classe Settings
+
+## Etape 6 :
+Ecriture des tests
